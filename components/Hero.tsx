@@ -27,7 +27,7 @@ const Hero = ({pageInfo}: Props) => {
         className='relative rounded-full h-32 w-32 mx-auto object-cover' 
         src={urlFor(pageInfo?.profilePic).url()} alt="" />
         <div className='z-20'>
-          <h2 className='text-sm uppercase text-gray-400 pb-2 md:tracking-[1px] md:tracking-[15px]'>{pageInfo?.role}</h2>
+          <h2 className='text-sm uppercase text-gray-400 pb-2 tracking-[8px] md:tracking-[15px]'>{pageInfo?.role}</h2>
           <h1>
           <span className='text-5xl lg:text-6xl font-semibold px-10 flex justify-center items-center'>{text}</span>
           <Cursor cursorColor='#F7AB0A' />
